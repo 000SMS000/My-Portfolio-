@@ -1,0 +1,47 @@
+.hud-ring {
+  position: absolute;
+
+  left: 50%;
+  top: 58%;
+
+  transform: translate(-50%, -50%);
+
+  border-radius: 50%;
+
+  border: 1px solid rgba(114, 255, 99, 0.15);
+}
+
+.ring-1 {
+  width: 420px;
+  height: 420px;
+}
+
+.ring-2 {
+  width: 520px;
+  height: 520px;
+}
+
+.ring-3 {
+  width: 650px;
+  height: 650px;
+}
+
+@keyframes rotateHud {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes rotateReverse {
+  from {
+    transform: rotate(360deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}

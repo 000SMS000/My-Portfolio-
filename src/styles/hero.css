@@ -1,0 +1,15 @@
+.hero{
+    display:grid;
+
+    grid-template-columns:320px 1fr 320px;
+
+    gap:30px;
+
+    max-width:1700px;
+
+    margin:auto;
+
+    padding:30px;
+
+    align-items:start;
+}

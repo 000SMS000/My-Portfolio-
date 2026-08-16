@@ -1,0 +1,28 @@
+body{
+    background: var(--bg);
+    overflow-x:hidden;
+}
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+
+    linear-gradient(rgba(255,255,255,.03) 1px,transparent 1px),
+
+    linear-gradient(90deg,rgba(255,255,255,.03) 1px,transparent 1px);
+
+    background-size:60px 60px;
+
+    pointer-events:none;
+
+    opacity:.4;
+
+    z-index:-2;
+
+}

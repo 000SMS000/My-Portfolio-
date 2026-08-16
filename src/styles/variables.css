@@ -1,0 +1,33 @@
+:root {
+  --bg: #0b1118;
+  --panel: #111827;
+  --panel-light: #161f2c;
+
+  --primary: #72ff63;
+  --secondary: #00d9ff;
+
+  --text: #f8fafc;
+  --text-soft: #94a3b8;
+
+  --border: #233042;
+
+  --glow: rgba(114, 255, 99, 0.35);
+
+  --radius: 18px;
+
+  --transition: 0.35s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+
+  color: white;
+
+  background: #0b1118;
+}
